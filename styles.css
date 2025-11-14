@@ -1,0 +1,22 @@
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --accent:#0b5fff;
+  --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{
+  font-family:Inter, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin:0; background:var(--bg); color:#111;
+  line-height:1.45;
+}
+.site-header{
+  background:linear-gradient(90deg,#eef2ff,#ffffff);
+  padding:32px;
+  text-align:center;
+  box-shadow: 0 2px 8px rgba(12,14,18,0.04);
+}
+.content{max-width:900px;margin:28px auto;padding:0 16px}
+section{background:var(--card); padding:18px; border-radius:10px; margin-bottom:16px; box-shadow:0 1px 6px rgba(12,14,18,0.04)}
+a{color:var(--accent); text-decoration:none}
+.site-footer{ text-align:center; padding:18px; color:var(--muted) }
