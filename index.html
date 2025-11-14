@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Belajar Bersama — Shin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Belajar Web — Shin</h1>
+    <p>Website pembelajaran sederhana dibuat via GitHub Pages</p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>Modul</h2>
+      <ul>
+        <li><a href="modul/html.html">HTML Dasar</a></li>
+        <li><a href="modul/css.html">CSS Dasar</a></li>
+        <li><a href="modul/javascript.html">JavaScript Dasar</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tutorial Cepat</h2>
+      <p>Mulai dari <strong>HTML</strong>, lanjut <strong>CSS</strong>, dan latihan <strong>JavaScript</strong>.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Shin — dibuat dengan GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
